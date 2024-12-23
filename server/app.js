@@ -1,5 +1,5 @@
 const PORT = process.env.PORT || 3000
-const url = "mongodb://localhost:27017"
+const url = "mongodb+srv://markosyanvahan07:jpE0np1DBBb42uJK@cluster0.p3vfo.mongodb.net"
 const cors = require('cors');
 const express = require('express');
 const connectToDatabase = require('./config/dbConnect');
