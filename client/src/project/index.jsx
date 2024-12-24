@@ -1,7 +1,7 @@
 import React from "react"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { GlobalStyles } from "./styled"
-import { MyHeader } from "./components"
+import { MyHeader, MyFooter } from "./components"
 import { AboutPage, DoctorsPage, MyContact, MyDoctorsPage, MyEquipments, MyHomePage, Operator, PolicyPage, PricePage, SearchPage, ServicesPage, ServicesParts } from "./containers"
 import { ToastContainer } from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
@@ -47,6 +47,7 @@ export const App = () => {
                         )
                     })}
                 </Routes>
+                <MyFooter />
             </Router>
         </>
     )
